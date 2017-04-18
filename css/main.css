@@ -9,3 +9,44 @@ ul{
 a{
   text-decoration: none;
 }
+.clearfix:after{
+  clear: both;
+  content: " ";
+  display: block;
+}
+body{
+  font: 16px/1.2 "Times New Roman", serif;
+}
+
+
+/*header*/
+header{
+  font-size: 19px;
+  background-color: black;
+}
+nav{
+  width: 82%;
+  margin: 0 auto;
+}
+nav li {
+  float: left;
+}
+nav a{
+  display: block;
+  padding: 0 20px;
+  line-height: 2.6;
+  color: #ffffff;
+}
+nav a:hover,
+nav a.active {
+  background-color: #4a4a4a;
+}
+
+
+
+
+
+
+
+
+
