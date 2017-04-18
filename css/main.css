@@ -67,7 +67,17 @@ article {
   float: left;
   padding: 12px 20px;
 }
-
+.right_sidebar{
+  width: 23%;
+  float: right;
+  padding: 12px 20px;
+}
+.right_sidebar img{
+  margin-top: 20px;
+}
+.right_sidebar img:first-child{
+  margin-top: 7px;
+}
 
 
 
