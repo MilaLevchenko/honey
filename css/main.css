@@ -16,21 +16,20 @@ a{
 }
 body{
   font: 16px/1.2 "Times New Roman", serif;
+  background-color: #EBEBEB;
 }
-h3{
-  font-size: 17px;
-  line-height: 2.2;
+
+h1{
+  font-size: 21px;
 }
-p{
-  margin-bottom: 12px;
-}
+
 /*header*/
 header{
   font-size: 19px;
   background-color: black;
 }
 nav{
-  width: 82%;
+  width: 83%;
   margin: 0 auto;
 }
 nav li {
@@ -44,44 +43,61 @@ nav a{
 }
 nav a:hover,
 nav a.active {
-  background-color: #4a4a4a;
+  background-color: #585858;
 }
 
-/*main*/
-main{
-  background-color: #e4e4e4;
-  width: 100%;
-  padding: 30px 0;
-
-}
+/*article*/
 article {
   background-color: #ffffff;
-  width: 82%;
-  margin: 0 auto;
+  width: 83%;
+  margin: 30px auto;
   font-size: 13px;
-  line-height: 1.3;
   text-align: justify;
+  padding-top: 20px;
 }
-.left_sidebar{
-  width: 23%;
+.sidebar{
+  width: 22.7%;
+  padding: 0 20px;
+}
+.left.sidebar{
   float: left;
-  padding: 12px 20px;
 }
-.right_sidebar{
-  width: 23%;
+.right.sidebar{
   float: right;
-  padding: 12px 20px;
 }
-.right_sidebar img{
+.right img{
+  width: 100%;
+  margin: 10px 0;
+}
+.right img:first-child{
+
+}
+.sidebar h2{
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.sidebar p{
+  margin-bottom: 10px;
+}
+/*central_article*/
+.central_article {
+  font-size: 16px;
+  margin: 0 22.7%;
+}
+.central_article p{
+  margin: 10px 0;
+}
+.central_article img{
+  width: 100%;
+  margin-top: 10px;
+}
+.central_article img:first-of-type{
+  margin-top: 0;
+}
+.central_article h2{
+  font-size: 19px;
   margin-top: 20px;
 }
-.right_sidebar img:first-child{
-  margin-top: 7px;
-}
-
-
-
-
 
 
 
